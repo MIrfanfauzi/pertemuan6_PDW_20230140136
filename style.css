@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap');
+
+body {
+  background: url("https://i.pinimg.com/736x/a2/62/fb/a262fbee997f1a0dbde9df68839a31bd.jpg") no-repeat center center fixed;
+  background-size: cover;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  padding: 20px;
+  backdrop-filter: blur(3px);
+}
+
+.main-title {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 4em;
+  color: #e60073;
+  text-shadow: 3px 3px 6px black;
+  margin-bottom: 20px;
+}
+
+.gothic-subtitle {
+  font-family: 'UnifrakturCook', cursive;
+  font-size: 2em;
+  color: #fff;
+  background-color: rgba(230, 0, 115, 0.3);
+  padding: 10px 20px;
+  border-radius: 8px;
+  display: inline-block;
+  margin: 40px 0 20px;
+  text-shadow: 1px 1px 3px black;
+}
+
+.media-section {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+}
+
+.center-media {
+  display: block;
+  margin: 10px auto 30px auto;
+  width: 90%;
+  max-width: 600px;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  padding-top: 10px;
+}
+
+.gallery img {
+  width: 45%;
+  border: 2px solid #f5f5f5;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+audio, video {
+  max-width: 100%;
+}
